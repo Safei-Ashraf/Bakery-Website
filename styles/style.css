@@ -56,7 +56,7 @@ header .navbar-brand:hover {
 	opacity: 0.75;
 }
 .hamburger-menu {
-	position: absolute;
+	position: fixed;
 	top: 25px;
 	right: 15px;
 	width: 50px;
@@ -69,6 +69,7 @@ header .navbar-brand:hover {
 	-moz-border-radius: 4px;
 	-ms-border-radius: 4px;
 	-o-border-radius: 4px;
+	border: #c69963 2px outset;
 	z-index: 5;
 }
 .hamburger-menu i {
@@ -179,6 +180,7 @@ header .navbar-brand:hover {
 	color: #fff !important;
 	background-color: #c69963;
 }
+
 /*Menu Section*/
 .menu {
 	background-color: #101d2c;
@@ -243,6 +245,23 @@ hr {
 	height: auto !important;
 }
 
+/*Chefs Section Styling*/
+.card-body h1 {
+	font-size: 25px;
+	letter-spacing: 1px;
+	font-family: 'teko', sans-serif;
+	font-weight: 300;
+}
+.card-body h6 {
+	font-size: 16px;
+	color: #db8924;
+}
+/*Footer Styling*/
+footer {
+	background-color: #101d2c;
+	color: rgba(255, 255, 255, 0.3);
+	width: 100%;
+}
 /*Media Queries*/
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
