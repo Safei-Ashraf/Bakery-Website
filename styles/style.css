@@ -1,2 +1,12 @@
+/*Google Font*/
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
 /*font-family: 'Oleo Script', cursive;*/
+
+/*General Resetting*/
+a {
+	text-decoration: none;
+	color: rgb(255, 255, 255) !important;
+}
+p {
+	margin: 0;
+}
